@@ -1,0 +1,37 @@
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3vh;
+
+}
+
+.date{
+    color: white;
+    font-size: 25px;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+.time{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* text-shadow: 2px 2px 4px rgb(0, 0, 0); */
+}
+
+.time-list{
+    border: 2px;
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px; 
+    border-radius: 5px;   
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+p{
+    color: white;
+}
